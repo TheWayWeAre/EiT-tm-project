@@ -1,6 +1,6 @@
 #Projekt
 
-##Pomiar temperatury przy pomocy czujnika
+##Pomiar temperatury przy pomocy czujnika DS18B20
 
 
 ##Opis
