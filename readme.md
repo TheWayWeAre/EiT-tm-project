@@ -5,7 +5,7 @@
 
 ##Opis
 
-Zamysłem projektu jest pomiar temperatury otoczenia przy pomocy podstawowego czujnika temperatury (ds18b20) i wyświetlenie pomiarów na ekranie monitora/wyświetlacza (2x16).
+Zamysłem projektu jest pomiar temperatury otoczenia przy pomocy prostego czujnika temperatury (ds18b20) i wyświetlenie pomiarów na ekranie monitora/wyświetlacza (2x16).
 
 
 
