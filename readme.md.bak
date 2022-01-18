@@ -41,7 +41,7 @@ W następnej kolejności łączymy nożki czujnika temperatury (LM35DZ NS) tak j
 
 Szynę danych łączymy z wejściem A0 na ARDUINO
 
-![img](./image/got.jpg)
+![img](./image/got.png)
 
 
 ## KOD
