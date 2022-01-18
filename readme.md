@@ -49,6 +49,14 @@ Szynę danych łączymy z wejściem A0 na ARDUINO
 
 ![img](./image/got.jpg)
 
+![img](./image/got1.jpg)
+
+![img](./image/temp1.jpg)
+
+![img](./image/temp2.jpg)
+
+![img](./image/pomiar.png)
+
 
 ## KOD
 
