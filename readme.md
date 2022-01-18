@@ -9,10 +9,10 @@ Zamysłem projektu jest pomiar temperatury otoczenia przy pomocy prostego czujni
 
 ## Elementy
 
-	!- Wyświetlacz LCD 2x16
-	!- Konwerter I2C
-	!- Czujnik temperatury LM35DZ NS
-	!- Arduino UNO
+* Wyświetlacz LCD 2x16
+* Konwerter I2C
+* Czujnik temperatury LM35DZ NS
+* Arduino UNO
 	
 ## Links
 
@@ -36,10 +36,10 @@ https://botland.com.pl/wyswietlacze-alfanumeryczne-i-graficzne/224-wyswietlacz-l
 
 Wyświetlacz LCD lutujemy z konwerterem I2C a następnie konwerter łączymy następująco z wejściami na ARDUINO UNO oraz płytą stykową:
 
-! GND > GND 
-! VCC > 5V
-! SDA > A4
-! SCL > A5
+* GND > GND 
+* VCC > 5V
+* SDA > A4
+* SCL > A5
 
 W następnej kolejności łączymy nożki czujnika temperatury (LM35DZ NS) tak jak przedstawiono w dokumentacji (LM35) z płytą stykową a następnie z ARDUINO UNO
 
