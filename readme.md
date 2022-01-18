@@ -60,30 +60,30 @@ Szynę danych łączymy z wejściem A0 na ARDUINO
 
 ## KOD
 
-#include <hd44780.h>				//
-#include <LiquidCrystal_I2C.h>		//Wymagane biblioteki
-#include <Wire.h>					//
-
-int sensor = A0;
-float temp;
-float volt;							//Zmienne
-float tempc;
-LiquidCrystal_I2C lcd(0x27, 2, 16);	//Wyświetlacz
-
-void setup() {
-pinMode(sensor,INPUT);
-lcd.begin(16,2);
-lcd.backlight();
-Serial.begin(9600);
-} 
-
-void loop() {
-delay(2000);
-temp=analogRead(sensor);				//Odczyt
-volt=(temp*5)/1024;						
-tempc=(volt*100);
-Serial.println(tempc);					//	
-lcd.setCursor(0,0);						//Wyświetlanie
-lcd.print("Temp w C = ");				//
-lcd.println(tempc);
-}
+#include <hd44780.h>				//\
+#include <LiquidCrystal_I2C.h>		//Wymagane biblioteki\
+#include <Wire.h>					//\
+\
+int sensor = A0;\
+float temp;\
+float volt;							//Zmienne\
+float tempc;\
+LiquidCrystal_I2C lcd(0x27, 2, 16);	//Wyświetlacz\
+\
+void setup() {\
+pinMode(sensor,INPUT);\
+lcd.begin(16,2);\
+lcd.backlight();\
+Serial.begin(9600);\
+} \
+\
+void loop() {\
+delay(2000);\
+temp=analogRead(sensor);				//Odczyt\
+volt=(temp*5)/1024;						\
+tempc=(volt*100);\
+Serial.println(tempc);					//	\
+lcd.setCursor(0,0);						//Wyświetlanie\
+lcd.print("Temp w C = ");				//\
+lcd.println(tempc);\
+}\
